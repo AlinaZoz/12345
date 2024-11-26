@@ -1,0 +1,106 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 100px;
+    background-color: rgb(39, 39, 83);
+    padding: 30px;
+    box-shadow: 0 0.4rem 0.4rem rgba(20, 0, 46, 0.25);
+}
+.t1{
+    color: aliceblue;
+}
+.t1:hover{color: rgb(249, 255, 179);
+    transition: 0.5s;
+    transform: scale(1.1);}
+
+body {
+    background-color: rgb(219, 224, 239);
+    width: 100%;
+    background-size: cover;
+    background-image: url(assets/bg.png);
+    background-position: 0%;
+}
+
+.vid{
+    margin-left: 440px;
+    margin-right: auto;
+    border-radius: 10px;
+
+    margin-bottom: 50px;
+}
+
+.vid{
+    width: 700px;
+    height: 400px;
+    margin-left: 440px;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 20px solid rgb(25, 17, 35);
+
+}
+
+.text1{
+    font-weight: 500;
+
+    margin-left: 470px;
+    margin-right: 470px;
+    text-align:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+.text3{
+    font-weight: 500;
+    margin-left: 470px;
+    margin-right: 470px;
+    text-align:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 70px;
+}
+.hh{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: large;
+    margin-left: 470px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.text2{
+    margin-top: 20px;
+}
+
+
+footer{
+    background-color: rgb(26, 16, 41);
+    font-weight: 100;
+    font-size: small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 80px;
+    display: flex;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.t2{
+    color: aliceblue;
+}
+.t2:hover{color: rgb(249, 255, 179);
+    transition: 0.5s;
+    transform: scale(1.1);}
